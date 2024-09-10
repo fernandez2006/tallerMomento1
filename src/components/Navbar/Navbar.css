@@ -1,0 +1,60 @@
+
+nav {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    margin-right: 15px;
+}
+
+img {
+    width: 50px;
+}
+
+.search {
+    width: 15px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .links {
+        display: none; 
+    }
+
+    .links.active {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .links a {
+        margin: 10px 0; 
+        text-align: left;
+    }
+}

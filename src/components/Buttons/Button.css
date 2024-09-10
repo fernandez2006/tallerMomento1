@@ -1,0 +1,16 @@
+
+button {
+    justify-content: space-between;
+    font-size: 40px; 
+    padding: 10px 20px; 
+    color: white; 
+    border-color: white;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+
+  button:hover {
+    background-color: aquamarine;
+    color: black;
+  }

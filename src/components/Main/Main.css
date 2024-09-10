@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+}
+
+.left-column h2 {
+  font-size: 40px;
+}
+.left-column h1 {
+  font-size: 60px;
+}
+.left-column h3 {
+  font-size: 30px;
+}
+
+.right-column img {
+  width: 30rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
